@@ -15,7 +15,9 @@
 
   "suggest": {
     "psr/log": "For logging utils",
-    "ext-curl": "For Filesystem::httpFileSize()"
+    "ext-curl": "For Filesystem::httpFileSize()",
+    "silex/silex": "For SilexAppHelper",
+    "symfony/console": "For SilexAppHelper"
   },
 
   "autoload": {
