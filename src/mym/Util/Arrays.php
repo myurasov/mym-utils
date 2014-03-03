@@ -12,7 +12,7 @@ abstract class Arrays
   /**
    * Walks through array
    * @param $array
-   * @param $callback function($path, $value)
+   * @param $callback callable function($path, $value)
    */
   public static  function walkArray($array, $callback, $iterator = null, $prefix = '')
   {
