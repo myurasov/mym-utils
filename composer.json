@@ -1,0 +1,26 @@
+{
+  "name": "myurasov/mym-utils",
+  "description": "Utils",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikhail Yurasov",
+      "email": "me@yurasov.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "~5.3"
+  },
+
+  "suggest": {
+    "psr/log": "For logging utils",
+    "ext-curl": "For Filesystem::httpFileSize()",
+  },
+
+  "autoload": {
+    "psr-0": {
+      "mym\\Util": "src/"
+    }
+  }
+}
